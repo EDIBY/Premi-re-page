@@ -34,19 +34,23 @@ Ouvrez `index.html` dans le navigateur **avant** de commencer : tout le texte es
    - mettez en `<em>` le mot « surtout », sur lequel on insiste.
 7. **La séparation** : ajoutez un `<hr>` juste avant les lignes « Fiche rédigée par » et « Date ».
 8. **Les crédits** : mettez « Fiche rédigée par : … » et « Date : … » dans **un seul** `<p>`, avec un `<br>` entre les deux. Remplacez les crochets par votre prénom et la date du jour.
-9. **Expérience** : dans un paragraphe, ajoutez 10 espaces et 3 retours à la ligne entre deux mots. Enregistrez et regardez le résultat. Que constatez-vous ? Annulez ensuite ce changement.
+9. **Expérience** : dans un paragraphe, ajoutez 10 espaces et 3 retours à la ligne entre deux mots. Enregistrez et regardez le résultat. Que constatez-vous ? 
+
+**Les 10 espaces n'ont pas indenté ou décallé le paragraphe par contre les 3<br> ont permit de sauter 2 lignes.**
+
+Annulez ensuite ce changement.
 10. Supprimez le commentaire `TODO` et remplacez-le par des commentaires qui indiquent les grandes parties de la page (`<!-- Partie : Présentation -->`…).
 
 ## Critères de réussite
 
-- [ ] Il y a un seul `<h1>` dans la page.
-- [ ] Les niveaux de titres se suivent sans saut : pas de `<h3>` directement après le `<h1>`.
-- [ ] Il y a 4 `<h2>` et 4 `<h3>`.
-- [ ] Plus aucun texte n'est « libre » dans le `<body>` : tout est dans une balise.
-- [ ] *Zea mays* est dans une balise `<i>`.
-- [ ] Il y a au moins deux `<strong>` et un `<em>`.
-- [ ] `<br>` n'est utilisé qu'une seule fois, dans les crédits (et jamais pour « faire de l'espace »).
-- [ ] Le code est indenté et commenté.
+- [x] Il y a un seul `<h1>` dans la page.
+- [x] Les niveaux de titres se suivent sans saut : pas de `<h3>` directement après le `<h1>`.
+- [x] Il y a 4 `<h2>` et 4 `<h3>`.
+- [x] Plus aucun texte n'est « libre » dans le `<body>` : tout est dans une balise.
+- [x] *Zea mays* est dans une balise `<i>`.
+- [x] Il y a au moins deux `<strong>` et un `<em>`.
+- [x] `<br>` n'est utilisé qu'une seule fois, dans les crédits (et jamais pour « faire de l'espace »).
+- [x] Le code est indenté et commenté.
 
 ## Indices
 
@@ -93,9 +97,21 @@ Le `<br>` se place **à l'intérieur** du paragraphe, entre les deux lignes à s
 ## Questions de compréhension
 
 1. Pourquoi ne doit-il y avoir qu'un seul `<h1>` par page ? (Pensez aux moteurs de recherche.)
+
+**Le moteur recherche se base sur la balise <h1> pour distinguer le theme principal et je pense qu'il ne reconnaitra pas plusieurs thèmes principaux.** 
+
 2. Pourquoi ne faut-il pas choisir une balise de titre (`<h2>`, `<h3>`…) pour sa **taille** d'affichage ?
+
+**Les balises de titres permettent de structurer la page et non agrandir les ecritures, il peut avoir une désorganisation de notre page.**
+
 3. Quelle est la différence entre `<strong>` et `<b>` ? Entre `<em>` et `<i>` ?
+
+<Strong> et <b>  mettent les mots en gras mais <strong> indique que le/les mots sont importants.
+<em> et <i> mettent les mots en italique, mais <em> met l'accent sur mot.
+
 4. Que fait le navigateur quand il rencontre plusieurs espaces ou retours à la ligne dans le code ?
+
+Je pense qu'il corrige les espaces et ne change rien au paragraphe, par contre il retourne à la ligne a chaque fois qu'il rencontre un retour à la ligne.
 
 ## Lien avec le brief PlantEvo
 
