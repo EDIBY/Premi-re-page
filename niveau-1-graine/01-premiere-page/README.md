@@ -37,19 +37,23 @@ Aucun ! Ce dossier ne contient que cette consigne. C'est vous qui créez le fich
    - le texte de votre `<title>` s'affiche dans l'**onglet** du navigateur ;
    - les accents (é, è, à, ç…) s'affichent correctement ;
    - le commentaire n'apparaît **pas** sur la page.
-9. **Expérience** : supprimez la ligne `<meta charset="UTF-8">`, enregistrez, puis ouvrez la page **par double-clic**. Que deviennent les accents ? (Le résultat peut varier selon le navigateur.) Remettez ensuite la ligne.
+9. **Expérience** : supprimez la ligne `<meta charset="UTF-8">`, enregistrez, puis ouvrez la page **par double-clic**. Que deviennent les accents ?
+
+9. **Les accents démeures.**
+
+ (Le résultat peut varier selon le navigateur.) Remettez ensuite la ligne.
 10. Affichez le code source de la page (`Ctrl + U`), puis ouvrez l'inspecteur (`F12` ou clic droit → *Inspecter*). Repérez votre `<h1>` dans l'inspecteur.
 
 ## Critères de réussite
 
-- [ ] Le fichier s'appelle `index.html` et se trouve dans le dossier `01-premiere-page`.
-- [ ] La première ligne est `<!DOCTYPE html>`.
-- [ ] La balise `<html>` a l'attribut `lang="fr"`.
-- [ ] Le `<head>` contient `meta charset`, `meta viewport` et un `<title>` personnalisé.
-- [ ] Le `<body>` contient exactement un `<h1>` et au moins un `<p>`.
-- [ ] Chaque balise ouverte est fermée (sauf `<meta>`, qui n'a pas de balise fermante).
-- [ ] Le code est indenté : chaque balise « enfant » est décalée de 2 espaces par rapport à son « parent ».
-- [ ] Les accents s'affichent correctement dans le navigateur.
+- [X] Le fichier s'appelle `index.html` et se trouve dans le dossier `01-premiere-page`.
+- [X] La première ligne est `<!DOCTYPE html>`.
+- [X] La balise `<html>` a l'attribut `lang="fr"`.
+- [X] Le `<head>` contient `meta charset`, `meta viewport` et un `<title>` personnalisé.
+- [X] Le `<body>` contient exactement un `<h1>` et au moins un `<p>`.
+- [X] Chaque balise ouverte est fermée (sauf `<meta>`, qui n'a pas de balise fermante).
+- [X] Le code est indenté : chaque balise « enfant » est décalée de 2 espaces par rapport à son « parent ».
+- [X] Les accents s'affichent correctement dans le navigateur.
 
 ## Indices
 
