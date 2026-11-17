@@ -37,19 +37,23 @@ Aucun ! Ce dossier ne contient que cette consigne. C'est vous qui créez le fich
    - le texte de votre `<title>` s'affiche dans l'**onglet** du navigateur ;
    - les accents (é, è, à, ç…) s'affichent correctement ;
    - le commentaire n'apparaît **pas** sur la page.
-9. **Expérience** : supprimez la ligne `<meta charset="UTF-8">`, enregistrez, puis ouvrez la page **par double-clic**. Que deviennent les accents ? (Le résultat peut varier selon le navigateur.) Remettez ensuite la ligne.
+9. **Expérience** : supprimez la ligne `<meta charset="UTF-8">`, enregistrez, puis ouvrez la page **par double-clic**. Que deviennent les accents ? 
+
+**Rien ne change.**
+
+(Le résultat peut varier selon le navigateur.) Remettez ensuite la ligne.
 10. Affichez le code source de la page (`Ctrl + U`), puis ouvrez l'inspecteur (`F12` ou clic droit → *Inspecter*). Repérez votre `<h1>` dans l'inspecteur.
 
 ## Critères de réussite
 
-- [ ] Le fichier s'appelle `index.html` et se trouve dans le dossier `01-premiere-page`.
-- [ ] La première ligne est `<!DOCTYPE html>`.
-- [ ] La balise `<html>` a l'attribut `lang="fr"`.
-- [ ] Le `<head>` contient `meta charset`, `meta viewport` et un `<title>` personnalisé.
-- [ ] Le `<body>` contient exactement un `<h1>` et au moins un `<p>`.
-- [ ] Chaque balise ouverte est fermée (sauf `<meta>`, qui n'a pas de balise fermante).
-- [ ] Le code est indenté : chaque balise « enfant » est décalée de 2 espaces par rapport à son « parent ».
-- [ ] Les accents s'affichent correctement dans le navigateur.
+- [x] Le fichier s'appelle `index.html` et se trouve dans le dossier `01-premiere-page`.
+- [x] La première ligne est `<!DOCTYPE html>`.
+- [x] La balise `<html>` a l'attribut `lang="fr"`.
+- [x] Le `<head>` contient `meta charset`, `meta viewport` et un `<title>` personnalisé.
+- [x] Le `<body>` contient exactement un `<h1>` et au moins un `<p>`.
+- [x] Chaque balise ouverte est fermée (sauf `<meta>`, qui n'a pas de balise fermante).
+- [x] Le code est indenté : chaque balise « enfant » est décalée de 2 espaces par rapport à son « parent ».
+- [x] Les accents s'affichent correctement dans le navigateur.
 
 ## Indices
 
