@@ -55,9 +55,21 @@ Les numéros correspondent aux commentaires `TODO` dans `index.html`.
    - Remplacez le `alt=""` par un vrai texte alternatif : cette image apporte une information, elle n'est pas décorative.
 5. **Image cliquable** : faites de l'image de la mangue un lien vers `https://fr.wikipedia.org/wiki/Mangue`. Pour cela, placez la balise `<img>` **à l'intérieur** d'une balise `<a>`. Adaptez le `alt` : il doit maintenant décrire la destination du lien (relisez le tableau ci-dessus).
 6. **Expériences** :
-   - Supprimez `width` et `height` sur une image : que se passe-t-il ? Remettez-les.
-   - Mettez `width="300"` et `height="100"` : l'image est-elle déformée ? Remettez les bonnes valeurs.
-   - Renommez temporairement `tomate.svg` en `tomate2.svg` (dans l'explorateur de fichiers) et rechargez la page : qu'affiche le navigateur à la place de l'image ? Remettez le bon nom.
+   - Supprimez `width` et `height` sur une image : que se passe-t-il ?
+   
+   **L'image change de dimensions**
+
+    Remettez-les.
+   - Mettez `width="300"` et `height="100"` : l'image est-elle déformée ?
+
+   **La taille de l'image est reduite**
+
+   Remettez les bonnes valeurs.
+   - Renommez temporairement `tomate.svg` en `tomate2.svg` (dans l'explorateur de fichiers) et rechargez la page : qu'affiche le navigateur à la place de l'image ?
+
+   **Le texte de alt(Une boule de tomate)**
+
+   Remettez le bon nom.
 
 ## Critères de réussite
 
