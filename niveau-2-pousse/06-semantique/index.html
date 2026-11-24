@@ -1,66 +1,106 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Le blog du Potager Malin</title>
 </head>
+
 <body>
+
   <!--
     Cette page s'affiche correctement… mais elle n'utilise QUE des <div> et des <span>.
     Votre mission : la réécrire avec des balises sémantiques (voir README.md).
   -->
 
   <!-- TODO 1 : en-tête → <header>, le nom du blog devient le <h1>, le slogan un <p> -->
-  <div class="entete">
-    <div class="gros-titre">Le blog du Potager Malin</div>
-    <div class="slogan">Des conseils simples pour jardiner sans gaspiller</div>
-  </div>
+  <header>
+    <h1>Le blog du Potager Malin</h1>
+    <p>Des conseils simples pour jardiner sans gaspiller</p>
+  </header>
 
   <!-- TODO 2 : menu → <nav> + une liste <ul>/<li> de liens (supprimez les « | ») -->
-  <div class="menu">
-    <a href="#compost">Compost</a> | <a href="#paillage">Paillage</a> | <a href="#conseil">Conseil de la semaine</a>
-  </div>
+  <nav>
+    <ul>
+      <li> <a href="#compost">Compost</a></li>
+      <li><a href="#paillage">Paillage</a></li>
+      <li><a href="#conseil">Conseil de la semaine</a></li>
+      <li><a href="#eau de pluie">Eau de pluie</a></li>
+    </ul>
+  </nav>
 
   <!-- TODO 3 : contenu principal → <main> -->
-  <div class="contenu">
+
+  <main>
 
     <!-- TODO 4 : article → <article>, titre → <h2> (gardez l'id) -->
-    <div class="article" id="compost">
-      <div class="gros-titre">Faire son compost</div>
-      <!-- TODO 5 : date → <time datetime="AAAA-MM-JJ"> -->
-      <div class="date">Publié le 10 novembre 2026</div>
+
+    <article id="compost">
+      <header>
+        <h2>Faire son compost</h2>
+        <!-- TODO 5 : date → <time datetime="AAAA-MM-JJ"> -->
+        <time datetime="2026-11-10">Publié le 10 novembre 2026</time>
+      </header>
       <!-- TODO 7 : textes → <p>, <span class="gras"> → <strong> -->
-      <div class="texte">Le compost transforme vos déchets de cuisine et de jardin en un engrais naturel et gratuit. Pour le réussir, il faut mélanger deux types de matières :</div>
+      <div>Le compost transforme vos déchets de cuisine et de jardin en un engrais naturel et gratuit.
+        Pour le réussir, il faut mélanger deux types de matières :</div>
       <!-- TODO 6 : fausse liste → vraie liste <ul>/<li> -->
-      <div>- les matières « vertes », riches en azote : épluchures de fruits et de légumes, tontes de gazon ;</div>
-      <div>- les matières « brunes », riches en carbone : feuilles mortes, branches broyées, carton non imprimé.</div>
-      <div class="texte">Gardez le tas <span class="gras">humide comme une éponge essorée</span> et retournez-le régulièrement pour l'aérer. Au bout de quelques mois, vous obtenez un terreau sombre qui sent bon la forêt.</div>
-    </div>
+      <ul>
+        <li>les matières « vertes », riches en azote : épluchures de fruits et de légumes, tontes de gazon ;</li>
+        <li>les matières « brunes », riches en carbone : feuilles mortes, branches broyées, carton non imprimé.</li>
+      </ul>
+      <p>Gardez le tas <strong>humide comme une éponge essorée</strong> et retournez-le
+        régulièrement pour l'aérer. Au bout de quelques mois, vous obtenez un terreau sombre qui sent bon la forêt.
+      </p>
+    </article>
+    </header>
 
-    <div class="article" id="paillage">
-      <div class="gros-titre">Pailler pour économiser l'eau</div>
-      <div class="date">Publié le 3 novembre 2026</div>
-      <div class="texte">Pailler, c'est couvrir le sol au pied des plantes avec une couche de matière organique : paille, feuilles sèches, herbe séchée…</div>
-      <div class="texte">Le paillage a trois avantages :</div>
-      <div>- il limite l'évaporation : le sol reste humide plus longtemps ;</div>
-      <div>- il empêche une grande partie des mauvaises herbes de pousser ;</div>
-      <div>- en se décomposant, il nourrit le sol.</div>
-      <div class="texte">Résultat : vous arrosez <span class="gras">moins souvent</span>.</div>
-    </div>
 
-  </div>
+    <article id="paillage">
+      <header>
+        <h2>Pailler pour économiser l'eau</h2>
+        <time datetime="2026-11-03">Publié le 3 novembre 2026</time>
+      </header>
+      <p>Pailler, c'est couvrir le sol au pied des plantes avec une couche de matière organique :
+        paille, feuilles sèches, herbe séchée…</p>
+      <p>Le paillage a trois avantages :</p>
+      <ul>
+        <li>il limite l'évaporation : le sol reste humide plus longtemps ;</li>
+        <li>il empêche une grande partie des mauvaises herbes de pousser ;</li>
+        <li>en se décomposant, il nourrit le sol.</li>
+      </ul>
+      <p>Résultat : vous arrosez <strong>moins souvent</strong>.</p>
+    </article>
+
+
+    <article id="eau de pluie">
+      <header>
+        <h2>Récupérer l'eau de pluie pour irriguer</h2>
+        <time datetime="2026-11-20">Publié le 20 novembre 2026</time>
+      </header>
+      <p>Récupérer l'eau de pluie dans l'eau avec un système de gouttière</p>
+      <ul>
+        <li></li>
+      </ul>
+    </article>
+
+
+  </main>
+
 
   <!-- TODO 8 : encadré → <aside> avec un titre <h2> -->
-  <div class="encadre" id="conseil">
-    <div class="gros-titre">Le conseil de la semaine</div>
-    <div class="texte">Arrosez tôt le matin ou en fin de journée : moins d'eau s'évapore qu'en plein soleil.</div>
-  </div>
+  <aside id="conseil">
+    <h2>Le conseil de la semaine</h2>
+    <p>Arrosez tôt le matin ou en fin de journée : moins d'eau s'évapore qu'en plein soleil.</p>
+  </aside>
 
   <!-- TODO 9 : pied de page → <footer> -->
-  <div class="pied">
+  <footer>
     <div>© 2026 Le blog du Potager Malin</div>
-    <div>Contact : <a href="mailto:contact@example.com">contact@example.com</a></div>
-  </div>
+    <address>Contact : <a href="mailto:contact@example.com">contact@example.com</a></address>
+  </footer>
+
 </body>
+
 </html>
