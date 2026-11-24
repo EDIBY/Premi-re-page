@@ -88,7 +88,11 @@ Une fois que vous savez écrire la structure de mémoire, VS Code peut la géné
 ## Questions de compréhension
 
 1. Quelle est la différence entre le `<head>` et le `<body>` ?
-2. À quoi sert l'attribut `lang="fr"` ? (Pensez aux lecteurs d'écran et aux moteurs de recherche.)
+<head> contient les meta données qui ne vont pas s'afficher.
+<body> la partie visible sur notre page web.
+2. À quoi sert l'attribut `lang="fr"` ?
+A reconnaitre les recherches en francais et indique que le site en francai. 
+(Pensez aux lecteurs d'écran et aux moteurs de recherche.)
 3. À quoi sert la ligne `<!DOCTYPE html>` ?
 4. Pourquoi est-il utile d'écrire des commentaires dans son code, alors qu'ils ne s'affichent pas ?
 
